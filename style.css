@@ -8,8 +8,7 @@
 }
 
 body{
-    background-color: lightcyan;
-    
+    background-color: var(--verde-musgo);
 }
 
 main{
@@ -24,6 +23,7 @@ main{
 main h1{
     font-size: 50px;
     margin-bottom: 5px;
+    color: var(--branco);
 }
 
 main #linha{
@@ -42,7 +42,6 @@ main #linha{
     padding: 25px;
     box-shadow: 0px 0px 20px rgb(13, 174, 199);
     border-radius: 10px;
-
     background-color: var(--azul-mais-claro);
 }
 
@@ -55,8 +54,11 @@ main #linha{
 }
 
 .container h2{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 4px 10px;
     color: var(--branco);
+    background-color: var(--verde-musgo);
 }
 
 .container h3{
